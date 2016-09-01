@@ -1,0 +1,339 @@
+html, body {
+  height: 120%;
+}
+.center {
+  display: flex;
+  height: 100%;
+  background-color: black;
+}
+.container {
+  max-width: 1075px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.menu {
+  flex: 3;
+  background-color: rgb(53, 161, 137);
+  display: flex;
+}
+.left_menu {
+  flex: 1;
+  padding-left: 6em;
+}
+.flag {
+  width: 70%;
+  height: 80%;
+  position: relative;
+  background-color: white;
+  font-size: 11px;
+  text-align: center;
+  line-height: 2em;
+  color: #999999;
+  font-weight: bold;
+}
+.flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 4em solid rgb(53, 161, 137);
+  border-left: 7.1em solid transparent;
+  border-right: 7.1em solid transparent;
+}
+#pizza {
+  margin-bottom: -17px;
+  width: 45px;
+}
+#pinwall {
+  color: rgb(53, 161, 137);
+  border-bottom: 1px solid #e6e6e6;
+  font: 3em 'Lobster Two', Helvetica, sans-serif;
+  padding-bottom: 0.2em;
+}
+.right_menu {
+  padding-right: 5em;
+  flex: 3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.shapes {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
+.shape {
+  margin: 0 2em;
+}
+#romb {
+  height: 0;
+  border: 2em solid transparent;
+  border-bottom: 3em solid #9fdeb5;
+  position: relative;
+  top: 34px;
+}
+#romb:after {
+  content: "";
+  position: absolute;
+  left: -32px;
+  top: 48px;
+  border: 2em solid transparent;
+  border-top: 3em solid #9fdeb5;
+}
+#hammer {
+  border-bottom: 2em solid #4e2525;
+  border-left: 2em solid transparent;
+  height: 0;
+  width: 3em;
+  position: relative;
+  top: 67px;
+}
+#hammer:after {
+  content: '';
+  border: 8px solid #a78b40;
+  border-bottom: 63px solid #a78b40;
+  top: 32px;
+  left: 8px;
+  position: absolute;
+}
+#drop {
+  width: 4em;
+  height: 4em;
+  background: aqua;
+  position: relative;
+  top: 6em;
+  border-radius: 50px;
+}
+#drop:before {
+  position: absolute;
+  border-top: 3em solid rgb(29, 199, 150);
+  content: "";
+  border-bottom: 3em solid aqua;
+  border-left: 1.9em solid transparent;
+  top: -2.9em;
+  left: 0.2em;
+  border-right: 1.8em solid transparent;
+  border-top: 1em solid transparent;
+}
+.social_media {
+  flex: 1;
+  padding-top: 25px;
+}
+#social_media_button {
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 5px;
+  color: white;
+  font-size: 1em;
+  border-radius: 7px;
+  background-color: rgb(53, 161, 137);
+  width: 9em;
+  align-self: center;
+}
+.small_circles {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+.small_circle {
+  margin: 3px;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50px;
+}
+#small_green_circle {
+  background-color: green;
+}
+.middle {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.logos {
+  flex: 1;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-around;
+}
+.middle_text {
+  flex: 4;
+  padding: 0 9em;
+  z-index: 0;
+}
+.middle_text h1 {
+  color: gray;
+  font-size: 23px;
+  font-weight: normal;
+  padding: 2em 7em;
+}
+.middle_text p {
+  color: gray;
+}
+#thank_you_button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #1dc796;
+  border-radius: 2px;
+  margin: 2em 0;
+}
+
+.middle:hover {
+  background-image: url('got.jpg');
+  background-size: 100% 100%;
+}
+.middle:hover h1, .middle:hover p, .middle:hover .logos {
+  opacity: 0;
+}
+.middle:hover #thank_you_button {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.conversation {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+  background-color: rgb(29, 199, 150);
+  padding: 2em;
+}
+.image_width {
+  width: 170px;
+}
+.user1 {
+  flex: 1;
+}
+
+.conversation_text {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  justify-content: space-around;
+}
+.user_text {
+  background-color: white;
+  margin: 0 2em;
+  position: relative;
+  border: 2px solid #666;
+  border-radius: 31px;
+  box-shadow: 2px 2px 4px #888;
+}
+.user1_text:before {
+  content: ' ';
+  position: absolute;
+  left: 19px;
+  top: 54px;
+  border: 13px solid;
+  border-color: #666 transparent transparent #666;
+}
+.user1_text:after {
+  content: ' ';
+  position: absolute;
+  left: 21px;
+  top: 53px;
+  border: 11px solid;
+  border-color: #fff transparent transparent #fff;
+}
+.user2_text:before {
+  content: ' ';
+  position: absolute;
+  left: 551px;
+  top: 54px;
+  border: 13px solid #666;
+  border-color: #666 #666 transparent transparent;
+}
+.user2_text:after {
+  content: ' ';
+  position: absolute;
+  left: 553px;
+  top: 53px;
+  border: 11px solid white;
+  border-color: #fff #fff transparent transparent;
+}
+.user2 {
+  flex 1;
+  align-self: flex-end;
+}
+#map {
+  flex: 3;
+
+}
+.adress {
+  text-align: left;
+  color: gray;
+  line-height: 20px;
+}
+#adress_word {
+  font-size: 2em;
+  padding: 10px 0;
+}
+
+.contact_us_box {
+  position: absolute;
+  left: 44em;
+  bottom: 3.7em;
+  background-color: #fff;
+  border: 2px solid #999;
+  text-align: left;
+  border-radius: 7px;
+  padding: 10px;
+  border-top: 5px solid #1dc796;
+}
+
+#contact_us_word {
+  color: gray;
+  font-size: 1.5em;
+}
+input {
+  margin: 5px 0;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 5px;
+  width: 94%;
+
+}
+textarea {
+  margin: 5px 0;
+  resize: none;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 5px;
+}
+#submit_button {
+  float: right;
+  margin-bottom: 1em;
+  text-align: right;
+  width: 4em;
+  color: white;
+  background-color: rgb(29, 199, 150);
+  width: 73px;
+  text-align: center;
+}
+#submit_button:after {
+  content: '';
+  clear: both;
+}
+.section_from_hell  {
+  position: relative;
+  flex: 0.5;
+  background: url("http://www.chuckbauman.com/Line-of-Fire-for-car-hood%20flames.jpg");
+  background-size: 25% 100%;
+}
+#section_from_hell_text {
+  line-height: 3.7em;
+  color: white;
+  font-weight: bolder;
+}
+.section_from_hell p:hover {
+  background: url("http://registry.gimp.org/files/Flamesexample.gif");
+  background-size: 25% 100%;
+}
+#cursor_here {
+  color: orange;
+}

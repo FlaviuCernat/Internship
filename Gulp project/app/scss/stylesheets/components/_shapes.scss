@@ -1,0 +1,44 @@
+.shape {
+  margin: 0 2em;
+}
+#romb {
+  border: 2em solid transparent;
+  border-bottom: 3em solid #9fdeb5;
+  @include after-before(relative, 34px, null, null, null);
+  height: 0;
+}
+#romb:after {
+  content: "";
+  border: 2em solid transparent;
+  border-top: 3em solid #9fdeb5;
+  @include after-before(absolute, 48px, null, null, -32px);
+}
+#hammer {
+  border-bottom: 2em solid #4e2525;
+  border-left: 2em solid transparent;
+  height: 0;
+  width: 3em;
+  @include after-before(relative, 67px, null, null, null);
+}
+#hammer:after {
+  content: '';
+  border: 8px solid #a78b40;
+  border-bottom: 63px solid #a78b40;
+  @include after-before(absolute, 32px, null, null, 8px);
+}
+#drop {
+  width: 4em;
+  height: 4em;
+  background: aqua;
+  border-radius: 50px;
+  @include after-before(relative, 6em, null, null, null);
+}
+#drop:before {
+  border-top: 3em solid rgb(29, 199, 150);
+  content: "";
+  border-bottom: 3em solid aqua;
+  border-left: 1.9em solid transparent;
+  border-right: 1.8em solid transparent;
+  border-top: 1em solid transparent;
+  @include after-before(absolute, -2.9em, null, null, 0.2em);
+}

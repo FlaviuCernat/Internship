@@ -1,0 +1,397 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+html, body {
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+b, strong {
+  font-weight: bold; }
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic; }
+
+ol, ul {
+  list-style: none; }
+
+li {
+  display: list-item; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th, td, caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left; }
+
+q {
+  quotes: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+sub, sup, small {
+  font-size: 75%; }
+
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+svg {
+  overflow: hidden; }
+
+/**
+ * Set up a decent box model on the root element
+ */
+html, body {
+  height: 120%; }
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+.center {
+  display: flex;
+  height: 100%;
+  background-color: black; }
+
+.container {
+  max-width: 1075px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.conversation {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+  background-color: #1dc796;
+  padding: 2em; }
+
+#map {
+  flex: 3; }
+
+.menu {
+  flex: 3;
+  background-color: #35a189;
+  display: flex; }
+
+.middle {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: white; }
+
+.section_from_hell {
+  position: relative;
+  flex: 0.5;
+  background: url("http://www.chuckbauman.com/Line-of-Fire-for-car-hood%20flames.jpg");
+  background-size: 25% 100%; }
+
+#section_from_hell_text {
+  line-height: 3.7em;
+  color: white;
+  font-weight: bolder; }
+
+.section_from_hell p:hover {
+  background: url("http://registry.gimp.org/files/Flamesexample.gif");
+  background-size: 25% 100%; }
+
+#cursor_here {
+  color: orange; }
+
+#social_media_button {
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 5px;
+  color: white;
+  font-size: 1em;
+  border-radius: 7px;
+  background-color: #35a189;
+  width: 9em;
+  align-self: center; }
+
+#thank_you_button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #1dc796;
+  border-radius: 2px;
+  margin: 2em 0; }
+
+.middle:hover #thank_you_button {
+  border: 1px solid black;
+  background-color: white;
+  color: black; }
+
+#submit_button {
+  float: right;
+  margin-bottom: 1em;
+  text-align: right;
+  width: 4em;
+  color: white;
+  background-color: #1dc796;
+  width: 73px;
+  text-align: center; }
+
+#submit_button:after {
+  content: '';
+  clear: both; }
+
+.contact_us_box {
+  background-color: #fff;
+  border: 2px solid #666666;
+  text-align: left;
+  border-radius: 7px;
+  padding: 10px;
+  border-top: 5px solid #1dc796;
+  position: absolute;
+  bottom: 3.7em;
+  left: 44em; }
+
+#contact_us_word {
+  color: #666666;
+  font-size: 1.5em; }
+
+input {
+  margin: 5px 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding: 5px;
+  width: 94%; }
+
+textarea {
+  margin: 5px 0;
+  resize: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding: 5px; }
+
+.conversation_text {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  justify-content: space-around; }
+
+.flag {
+  width: 70%;
+  height: 80%;
+  position: relative;
+  background-color: white;
+  font-size: 11px;
+  text-align: center;
+  line-height: 2em;
+  color: #999999;
+  font-weight: bold; }
+
+.flag:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 4em solid #35a189;
+  border-left: 7.1em solid transparent;
+  border-right: 7.1em solid transparent; }
+
+.flex_1 {
+  flex: 1; }
+
+.left_menu {
+  padding-left: 6em; }
+
+.logos {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-around; }
+
+.adress {
+  text-align: left;
+  color: #666666;
+  line-height: 20px; }
+
+#adress_word {
+  font-size: 2em;
+  padding: 10px 0; }
+
+.middle:hover {
+  background-image: url("../../images/got.jpg");
+  background-size: 100% 100%; }
+
+.middle:hover h1, .middle:hover p, .middle:hover .logos {
+  opacity: 0; }
+
+.middle_text {
+  flex: 4;
+  padding: 0 9em;
+  z-index: 0; }
+
+.middle_text h1 {
+  color: gray;
+  font-size: 23px;
+  font-weight: normal;
+  padding: 2em 7em; }
+
+.middle_text p {
+  color: gray; }
+
+#pizza {
+  margin-bottom: -17px;
+  width: 45px; }
+
+#pinwall {
+  color: #35a189;
+  border-bottom: 1px solid #e6e6e6;
+  font: 3em "Lobster Two", Helvetica, sans-serif;
+  padding-bottom: 0.2em; }
+
+.right_menu {
+  padding-right: 5em;
+  flex: 3;
+  color: white;
+  display: flex;
+  flex-direction: column; }
+
+.shapes {
+  display: flex;
+  flex: 2;
+  justify-content: center; }
+
+.shape {
+  margin: 0 2em; }
+
+#romb {
+  border: 2em solid transparent;
+  border-bottom: 3em solid #9fdeb5;
+  position: relative;
+  top: 34px;
+  height: 0; }
+
+#romb:after {
+  content: "";
+  border: 2em solid transparent;
+  border-top: 3em solid #9fdeb5;
+  position: absolute;
+  top: 48px;
+  left: -32px; }
+
+#hammer {
+  border-bottom: 2em solid #4e2525;
+  border-left: 2em solid transparent;
+  height: 0;
+  width: 3em;
+  position: relative;
+  top: 67px; }
+
+#hammer:after {
+  content: '';
+  border: 8px solid #a78b40;
+  border-bottom: 63px solid #a78b40;
+  position: absolute;
+  top: 32px;
+  left: 8px; }
+
+#drop {
+  width: 4em;
+  height: 4em;
+  background: aqua;
+  border-radius: 50px;
+  position: relative;
+  top: 6em; }
+
+#drop:before {
+  border-top: 3em solid #1dc796;
+  content: "";
+  border-bottom: 3em solid aqua;
+  border-left: 1.9em solid transparent;
+  border-right: 1.8em solid transparent;
+  border-top: 1em solid transparent;
+  position: absolute;
+  top: -2.9em;
+  left: 0.2em; }
+
+.small_circles {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em; }
+
+.small_circle {
+  margin: 3px;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50px; }
+
+#small_green_circle {
+  background-color: green; }
+
+.social_media {
+  padding-top: 25px; }
+
+.user_image_width {
+  width: 170px; }
+
+.user_text {
+  background-color: white;
+  margin: 0 2em;
+  position: relative;
+  border: 2px solid #666666;
+  border-radius: 31px;
+  box-shadow: 2px 2px 4px #888; }
+
+.user1_text:before {
+  content: ' ';
+  border: 13px solid;
+  border-color: #666666 transparent transparent #666666;
+  position: absolute;
+  top: 54px;
+  left: 19px; }
+
+.user1_text:after {
+  content: ' ';
+  border: 11px solid;
+  border-color: #fff transparent transparent #fff;
+  position: absolute;
+  top: 53px;
+  left: 21px; }
+
+.user2_text:before {
+  content: ' ';
+  border: 13px solid #666666;
+  border-color: #666666 #666666 transparent transparent;
+  position: absolute;
+  top: 54px;
+  left: 551px; }
+
+.user2_text:after {
+  content: ' ';
+  border: 11px solid white;
+  border-color: #fff #fff transparent transparent;
+  position: absolute;
+  top: 53px;
+  left: 553px; }
+
+.user2 {
+  align-self: flex-end; }

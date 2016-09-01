@@ -1,0 +1,18 @@
+.section_from_hell  {
+  position: relative;
+  flex: 0.5;
+  background: url("http://www.chuckbauman.com/Line-of-Fire-for-car-hood%20flames.jpg");
+  background-size: 25% 100%;
+}
+#section_from_hell_text {
+  line-height: 3.7em;
+  color: white;
+  font-weight: bolder;
+}
+.section_from_hell p:hover {
+  background: url("http://registry.gimp.org/files/Flamesexample.gif");
+  background-size: 25% 100%;
+}
+#cursor_here {
+  color: orange;
+}

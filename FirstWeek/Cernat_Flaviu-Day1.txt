@@ -1,0 +1,11 @@
+1 = https://jsfiddle.net/vr657xha/8/
+2 = https://jsfiddle.net/Ld2k044b/7/
+3 = https://jsfiddle.net/nxb9Lod7/7/
+4 = https://jsfiddle.net/n6j8gbxu/7/
+5 = https://jsfiddle.net/1fw9mpby/3/
+6 = https://jsfiddle.net/o93tmwo4/2/
+7 = https://jsfiddle.net/fzcwm4g9/6/
+8 = https://jsfiddle.net/wcwj5dtw/6/
+9 = https://jsfiddle.net/h0un63kw/10/
+10 = https://jsfiddle.net/r4q050xf/4/
+Tabla inmultirii modificata = https://jsfiddle.net/pjgvL7bL/6/

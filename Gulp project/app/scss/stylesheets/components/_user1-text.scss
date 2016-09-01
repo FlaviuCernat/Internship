@@ -1,0 +1,12 @@
+.user1_text:before {
+  content: ' ';
+  border: 13px solid;
+  border-color: $mid-grey transparent transparent $mid-grey;
+  @include after-before(absolute, 54px, null, null, 19px);
+}
+.user1_text:after {
+  content: ' ';
+  border: 11px solid;
+  border-color: #fff transparent transparent #fff;
+  @include after-before(absolute, 53px, null, null, 21px);
+}

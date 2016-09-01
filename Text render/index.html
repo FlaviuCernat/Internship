@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Css_Reset.css">
+    <title>List app</title>
+    <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  </head>
+
+  <body>
+    <div class="container ">
+      <div>
+        <input type="text" id="add" class="input" placeholder="Add text here...">
+        <button class="button" id="addButton" onclick="add()">Add</button><br>
+      </div>
+      <div>
+        <input type="search" class="input" id="search" placeholder="Search..." onkeyup = "filter()">
+        <button class="button" id="button" onclick="sort()">Sort</button>
+      </div>
+      <div class="list">
+        <input type="file" name="file" id="file">
+      </div>
+      <ul id = "ulist"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

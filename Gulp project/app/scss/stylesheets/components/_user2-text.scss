@@ -1,0 +1,15 @@
+.user2_text:before {
+  content: ' ';
+  border: 13px solid $mid-grey;
+  border-color: $mid-grey $mid-grey transparent transparent;
+  @include after-before(absolute, 54px, null, null, 551px);
+}
+.user2_text:after {
+  content: ' ';
+  border: 11px solid white;
+  border-color: #fff #fff transparent transparent;
+  @include after-before(absolute, 53px, null, null, 553px);
+}
+.user2 {
+  align-self: flex-end;
+}

@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// Copy text color
+/// @type Color
+//$text-color: rgb(34, 34, 34);
+
+/// Main brand color
+/// @type Color
+//$brand-color: rgb(229, 0, 80);
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(230, 230, 230);
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(102, 102, 102);
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68);
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1075px;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+);
+
+$special-font: 3em 'Lobster Two', Helvetica, sans-serif;
+$height: 100%;
+$menu-color: rgb(53, 161, 137);
+$flex: flex;
+$middle-color: rgb(29, 199, 150);

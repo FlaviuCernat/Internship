@@ -1,0 +1,41 @@
+1. Make a Rock, Paper, Scissors game!
+- 2 players: human vs computer.
+- Generate random entry for computer.
+- Display the result : winner, loser, draw.
+
+2. Implement a Game DragonSlayer.
+
+Rules:
+- Dragon has 50 HP (health points)
+- Your attack does between 10 - 20 HP / hit
+- You get 3 hits to kill the dragon, if not the dragon kills you.
+
+Requirements:
+- The game should be an Object named 'DragonSalyer'.
+- An attack() method attacks the Dragon.
+- The attack() method should generate a random damage between 10 - 20.
+- You might have a chance 10% for critical damage that is x2 your generated damage.
+- You need to call the attack() method each time you want to attack.
+- After each attack display the 'health' of the Dragon and your damage.
+
+Challenge 1:
+You:
+    - Your HP is 1500
+    - You and the dragon have unlimited attack rounds, unitl one of you fall in battle.
+    - Each time you attack, the dragon counter attacks.
+    - Your attack damage is between 78 - 98 dmg / hit.
+    - You wield the mighty Mjolnir, which grants you 20% chance on each attack to deal 200 extra dmg:
+        dmg = your norma attack dmg + 200 dmg
+    - Your critical strike is replaced with Coup de grâce! it grants you 15% chance for an attack x4 times your damage:
+        dmg = (normal attack damage + mjolnir dmg) * 4 
+Dragon:
+    - The Dragon has 2000 HP.
+    - Each time you attack the Dragon he has 35% chance to evade you attack.
+    - After each time you attack, the Dragon will attack back and deal you damage between 92-122.
+
+Challenge 2:
+- Everything from the first challenge.
+- The Dragon has a Fire attack that has a 30% chance to trigger and will deal you 100 dmg more and burn you for the next 3 attacks.
+- The burning damage: before and after each attack you lose between 25 - 35 HP.
+- The burning damage can stack up and lose effect in FIFO style (first in first out).
+- You get a "Purification" skill (add a new method purifaction() ) the will instantly heal you 360 HP.

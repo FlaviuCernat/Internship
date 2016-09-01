@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+  <title>Minions Form</title>
+  <link rel="stylesheet" type="text/css" href="CSS_Reset.css" />
+  <link rel="stylesheet" type="text/css" href="Minions_form.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div id="wraper">
+    <div id="principal_container">
+      <div id="minionsform">
+        <div id="logo">
+          <figure>
+            <img src="book.jpg" alt="welogo" />
+            <figcaption>
+              Minions Form
+            </figcaption>
+          </figure>
+        </div>
+        <div id="user_input">
+          <form>
+            <i class="material-icons">perm_identity</i><input class="form" id="user" type="text" name="username" placeholder="Username"/><br />
+            <i class="material-icons">email</i></i><input class="form" type="email" name="email" placeholder="Email"/><br />
+            <i class="material-icons">lock_outline</i><input class="form" id="pass1" type="password" name="password" placeholder="Password"/><br />
+            <i class="material-icons">lock_outline</i><input class="form" id="pass2" type="password" name="password" placeholder="Re-type Password"/><br />
+            <input id="button" type="submit" value="REGISTER NOW"><br />
+            <input type="file" id="uploaded_image">
+          </form>
+          <div id="image">
+            <button class="btn" id="edit_btn">Edit</button>
+            <button class="btn" id="delete_btn">Delete</button>
+            <img id="image_preview" />
+          </div>
+        </div>
+        <ul id="nav">
+          <li><a href="#">Countries</a>
+            <ul id="second">
+              <li><a href="#">England</a></li>
+              <li><a href="#">Romania</a>
+                <ul id="third">
+                  <li><a href="#">Cluj-Napoca</a></li>
+                  <li><a href="#">Timisoara</a></li>
+                  <li><a href="#">Sibiu</a></li>
+                </ul>
+              </li>
+              <li><a href="#">France</a></li>
+            </ul>
+          </li>
+        </ul>
+        <p id="login">
+          Already have an account?&nbsp<a href="#">Login</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="Minions_form.js">
+  </script>
+</body>

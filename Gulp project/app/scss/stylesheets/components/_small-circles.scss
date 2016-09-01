@@ -1,0 +1,15 @@
+.small_circles {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+.small_circle {
+  margin: 3px;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50px;
+}
+#small_green_circle {
+  background-color: green;
+}

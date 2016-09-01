@@ -1,0 +1,29 @@
+.contact_us_box {
+  background-color: #fff;
+  border: 2px solid $mid-grey;
+  text-align: left;
+  border-radius: 7px;
+  padding: 10px;
+  border-top: 5px solid $middle-color;
+  @include after-before(absolute, null, null, 3.7em, 44em);
+}
+
+#contact_us_word {
+  color: $mid-grey;
+  font-size: 1.5em;
+}
+input {
+  margin: 5px 0;
+  border: 1px solid $light-grey;
+  border-radius: 2px;
+  padding: 5px;
+  width: 94%;
+
+}
+textarea {
+  margin: 5px 0;
+  resize: none;
+  border: 1px solid $light-grey;
+  border-radius: 2px;
+  padding: 5px;
+}
