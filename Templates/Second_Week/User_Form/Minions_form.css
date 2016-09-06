@@ -4,10 +4,12 @@ body {
   height: 100%;
   display: table;
 }
+
 #wraper {
   display: table-cell;
   vertical-align: middle;
 }
+
 #principal_container {
   margin: auto;
   max-width: 450px;
@@ -18,40 +20,48 @@ body {
   text-align: center;
   padding: 20px 0px;
 }
+
 #logo {
   padding-bottom: 50px;
 }
+
 .form {
   height: 40px;
   width: 75%;
   border: none;
   border-bottom: 2px solid #ccc;
 }
+
 .material-icons {
   padding-right: 10px;
   vertical-align: middle;
 }
+
 form {
   line-height: 5;
 }
+
 #user {
   background-image: url('user.jpg');
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 7%;
 }
+
 #pass1 {
     background-image: url('pass.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: 8%;
 }
+
 #pass2 {
     background-image: url('pass.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: 8%;
 }
+
 #button {
   padding: 2% 28%;
   background-color: #00b3b3;
@@ -62,6 +72,7 @@ form {
   box-shadow: 2px 2px 5px gray;
   margin: 20px 0px;
 }
+
 a:link {
   text-decoration: none;
 }
@@ -70,15 +81,19 @@ a:visited {
   text-decoration: none;
   color: blue;
 }
+
 #login {
   padding-bottom: 10px;
 }
+
 #image_preview {
   width: 85%;
 }
+
 #image {
   position: relative;
 }
+
 .btn {
   position: absolute;
   top: 90%;
@@ -91,18 +106,22 @@ a:visited {
   box-shadow: 2px 2px 5px gray;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #edit_btn {
   left: 55%;
 }
+
 #delete_btn {
   left: 40%;
 }
+
 #nav {
   list-style: none;
   padding-left: 8%;
   padding-bottom: 5%;
 
 }
+
 #nav li {
   position: relative;
   width: 192px;
@@ -110,9 +129,11 @@ a:visited {
   text-align: center;
   border-radius: 2px;
 }
+
 #nav li:hover {
   background: #1a8cff;
 }
+
 #nav a {
   display: block;
   color: #000;
@@ -126,11 +147,13 @@ a:visited {
   list-style: none;
   display: none;
 }
+
 #nav li:hover #second {
   display: block;
   left: 100%;
   top: 0%;
 }
+
 #second li:hover #third {
   display: block;
   left: 100%;

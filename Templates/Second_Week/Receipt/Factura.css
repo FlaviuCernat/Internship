@@ -1,6 +1,7 @@
 body {
   background-color: black;
 }
+
 #factura {
   background-color: white;
   padding: 100px;
@@ -8,78 +9,91 @@ body {
   margin: auto;
   width: 900px;
 }
+
 #top  {
   overflow: hidden;
 }
+
 #m {
-  /*background-color: black;
-  color: white;
-  padding: 15px; */
   float: left;
 }
+
 #contact {
   float: right;
   text-align: right;
   color: #b3b3b3;
 }
+
 #milan {
   color: black;
   font-weight: bold;
 }
+
 #recipient-invoice {
   overflow: hidden;
   padding-top: 80px;
 }
+
 #recipientWord {
   color: black;
   font-weight: bold;
   font-size: 15px;
 }
+
 #recipient {
   float: left;
   text-align: left;
   color: #b3b3b3;
 }
+
 #invoice {
   float: right;
   text-align: right;
   color: #b3b3b3;
   line-height: 20px;
 }
+
 #invoiceWord {
   font-size: 25px;
   color: black;
   font-weight: bold;
 }
+
 #invoiceNr {
   font-size: 15px;
   color: black;
   font-weight: bold;
 }
+
 #middle {
   overflow: hidden;
   padding-top: 100px;
   padding-bottom: 80px;
 }
+
 #invoiceDateWord {
   color: black;
   font-weight: bold;
   font-size: 15px;
 }
+
 #invoiceDate {
   float: left;
   text-align: left;
   color: #b3b3b3;
 }
+
 #tabelul {
   float: right;
   border-bottom: 1px solid #cccccc;
 }
+
 th {
   color: black;
   font-weight: bold;
   font-size: 14px;
 }
+
 td {
   font-size: 14px;
 }
@@ -88,23 +102,28 @@ td {
   color: #b3b3b3;
   padding: 15px 40px;
 }
+
 #tabelul .leftAllign {
   text-align: left;
   padding-left: 0px;
 }
+
 #tabelul .rightAllign {
   text-align: right;
   padding-right: 0px;
 }
+
 #tabelulSubtotal {
   float:right;
   margin-top: 30px;
 }
+
 #tabelulSubtotal .rightAllign {
   text-align: right;
   padding-right: 0px;
   color: #b3b3b3;
 }
+
 #tabelulSubtotal .paddingTL {
   padding: 0px 130px;
 }
@@ -112,11 +131,13 @@ td {
   padding-top: 20px;
   font-size: 20px;
 }
+
 #notes {
   color: black;
   font-size: 14px;
   font-weight: bold;
 }
+
 #bottom {
   text-align: left;
   color: #b3b3b3;
@@ -127,12 +148,14 @@ td {
   padding-top: 20px;
   color: #b3b3b3;
 }
+
 hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 @media print {
   body {
     font-size: 11px;
