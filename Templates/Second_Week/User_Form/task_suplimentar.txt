@@ -1,0 +1,5 @@
+Pe langa template:
+1. Adaugati un buton care sa incarce o imagine, iar cand punem cursorul pe imagine,
+sa apara 2 butoane: Edit si Delete (fara sa faca nimic).
+2. Introduceti un dropdown menu care se deschide pe dreapta, pe 2 nivele care
+sa contina orice.

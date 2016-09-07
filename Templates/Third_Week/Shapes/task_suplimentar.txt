@@ -1,0 +1,7 @@
+Pe langa template:
+1. In locul celor 3 logo-uri de sus, creati 3 forme (romb, ciocan, picatura), iar "flag-ul"
+din stanga sa il faceti "coada de randunica", totul cu :before si :after.
+2. Cand pun cursorul pe a 2-a sectiune, sa apara o imagine.
+3. A 3-a sectiune sa o faceti sub forma de dialog intre 2 oameni (oricare), cu speech
+balloon, tot cu :before si :after.
+4. Adaugati un footer "Section from hell".
